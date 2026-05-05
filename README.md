@@ -26,12 +26,17 @@ shortz-app/
 
 ├── bin/
 
-   └── www               (entry point da aplicação)   
+|  └── www               (entry point da aplicação)   
+
 ├── config/
-   └── database.js       (configuração de acesso ao banco de dados via sequelize)
+|  └── database.js       (configuração de acesso ao banco de dados via sequelize)
+
 ├── middlewares/          (vazia por enquanto)   
+
 ├── modules/              (vazia – virá nas próximas semanas)    
+
 |── node_modules/         (pacotes do node, instalados via 'npm install ...')
+
 ├── public/               (arquivos acessíveis diretamente via alguma url)    
 │   ├── images/
 │   ├── javascripts/
@@ -39,17 +44,23 @@ shortz-app/
 │   └── uploads/
 │       ├── videos/  
 │       └── covers/
+
 ├── routes/             (controladores de rotas para a aplicação)  
 │   ├── index.js
 │   └── users.js
+
 ├── views/              (parte visual - páginas - da aplicação)  
 │   ├── layouts/
 │   ├── partials/
 │   ├── erros.ejs
 │   └── index.ejs
+
 ├── .env                (chaves e senhas da aplicação - nunca publique este arquivo)  
+
 ├── .gitignore          (lista de arquivos que não devem ser publicados no GitHub)  
+
 ├── app.js              (setup básico da aplicação)  
+
 └── package.json        (lista de dependências e scripts da aplicação)
 
 ## 🚀 Como Executar
