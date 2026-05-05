@@ -23,17 +23,27 @@ Shortz-App é uma aplicação web que permite encurtar URLs longas, facilitando 
 ## 📁 Estrutura do Projeto
 
 shortz-app/
+
 ├── bin/
 
 │   └── www               (entry point da aplicação)   
+
 ├── config/
+
 │   └── database.js       (configuração de acesso ao banco de dados via sequelize)
+
 ├── middlewares/          (vazia por enquanto)   
+
 ├── modules/              (vazia – virá nas próximas semanas)    
-|── node_modules/         (pacotes do node, instalados via 'npm install ...')    
+
+|── node_modules/         (pacotes do node, instalados via 'npm install ...')
+
 ├── public/               (arquivos acessíveis diretamente via alguma url)    
+
 │   ├── images/
+
 │   ├── javascripts/
+
 │   ├── stylesheets/
 │   └── uploads/
 │       ├── videos/  
